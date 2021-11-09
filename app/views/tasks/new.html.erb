@@ -1,0 +1,8 @@
+<%= simple_form_for(task) do |f| %>
+  <%= f.input :title %>
+  <%= f.input :details %>
+  <%= f.input :completed %>
+  <%= f.submit %>
+<% end %>
+
+<%= link_to "back in the task list", tasks_path %>
